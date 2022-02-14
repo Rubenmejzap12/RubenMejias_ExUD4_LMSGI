@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <sucursal codigo="A2598745">
+        <direccion>c/ Tesorillo</direccion>
+        <direccion> c/ Canalejas 10</direccion>
+        <trabajador>Juan Antonio Mesa 25</trabajador>
+        <fecha>2020-02-10</fecha>
+        <observacion>Urgente</observacion>
+        <articulo codigo="ABC-158">
+            <unidades>5</unidades>
+            <precio>1000</precio>
+            <observaciones> Articulo muy valioso, manipular con mucho cuidado</observaciones>
+            <plazo>10</plazo>
+        </articulo>
+        <articulo codigo="ABC-159">
+            <unidades>2</unidades>
+            <precio>250</precio>
+            <observaciones> Sin problemas al respecto</observaciones>
+            <plazo> 5 </plazo>
+        </articulo>
+    </sucursal>
+    <sucursal codigo="B5478965">
+        <direccion> c/ Algodonales 12</direccion>
+        <trabajador> Julio Maldonado </trabajador>
+        <fecha>2018-10-25</fecha>
+        <articulo codigo="AHY-125">
+            <unidades>20</unidades>
+            <precio>2000</precio>
+            <observaciones> Articulo con gases toxicos</observaciones>
+            <plazo>5</plazo>
+        </articulo>
+    </sucursal>
+</pedidos>
