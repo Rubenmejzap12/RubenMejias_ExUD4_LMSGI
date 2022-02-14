@@ -24,6 +24,7 @@
         <direccion> c/ Algodonales 12</direccion>
         <trabajador> Julio Maldonado </trabajador>
         <fecha>2018-10-25</fecha>
+        <observacion>Incompleto</observacion>
         <articulo codigo="AHY-125">
             <unidades>20</unidades>
             <precio>2000</precio>

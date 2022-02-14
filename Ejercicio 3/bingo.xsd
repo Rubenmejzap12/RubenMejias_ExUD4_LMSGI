@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:annotation>
+        <xsd:documentation xml:lang="Es-es">
+            Esquema empresa Los Remedios S.A.
+            <fecha>2022-02-14</fecha>
+            <autor>Ruben Mejias Zapata</autor>
+        </xsd:documentation>
+    </xsd:annotation>
+  <xsd:element name="bingo">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="bola" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:attribute name="numero" type="numeroDeBola"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:simpleType name="numeroDeBola">
+     <xsd:restriction base="xsd:positiveInteger">
+        <xsd:minInclusive value="1"/>
+        <xsd:maxExclusive value="90"/>
+     </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>
